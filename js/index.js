@@ -1,8 +1,8 @@
 'use strict';
 
-const featTitle = `Why Choose Cyber Security Assist?`;
+const featTitle = `Why Choose Graphic Design Assist?`;
 
-const feat1Title = `Protecting from<br/> Cyber Threats`;
+const feat1Title = `Protecting from<br/> Graphic Design`;
 const feat1Desc = `
   At Cyber Security Assist, we understand the unique challenges small businesses face in today's digital landscape. Cyber threats are constantly evolving, and having a robust security framework is essential to protect your valuable data and maintain the trust of your customers.<br/> That's why we are committed to helping small businesses like yours fortify their digital defenses.
 `;

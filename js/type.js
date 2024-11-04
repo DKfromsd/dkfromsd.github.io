@@ -41,7 +41,7 @@ const moveCaret = (parentId) => {
 // target elemen id, text, speed
 const typeText = (id, text, delay = 150) => {
   const el = getEl(id);
-  // if (loc !== conv(cn)) el.innerHTML = '';
+    if (loc !== conv(cn)) el.innerHTML = '';
 
   return new Promise(resolve => {
     el.innerHTML = ''; //reset
