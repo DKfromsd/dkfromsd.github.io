@@ -57,5 +57,5 @@ const handleSubmit = async e => {
 
 const startContactListener = () => {
   document.getElementById('js-contact-form').addEventListener('submit', handleSubmit);
-  if (loc !== conv(cn)) bd.innerHTML = '';
+  // if (loc !== conv(cn)) bd.innerHTML = '';
 }

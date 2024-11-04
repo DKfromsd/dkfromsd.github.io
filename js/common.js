@@ -20,7 +20,7 @@ const loadEnv = async () => {
   // for (let [key, value] of ENV) {
   //   console.log("AK: key", key, value)
   // }
-  if (ENV.get('ENV') === 'DEV') cn = 'tsohlacol';
+  //if (ENV.get('ENV') === 'DEV') cn = 'tsohlacol';
 }
 
 // comment the fonts that you don't need
