@@ -18,7 +18,7 @@ const messageSuccess = `Your request is successfully sent.`;
 const messageFail = `Sorry my mailbox is not set up yet. Please email us at info@rysonconsulting.com`;
 
 const mainDesc = `
-    We offer a personalized Web Starter Kit at a minimal cost, providing everything you need to 
-    jumpstart your website. With our service, you can present your business online with a custom domain 
-    in an ad-free environment within a couple of hours.
+    We offer a personalized Grpafic Design Portfolio at a minimal cost, providing everything you need to 
+    jumpstart your illustration skills. With our service, you can present your portfolio with a custom education 
+    for your careers within a couple of months.
 `;
