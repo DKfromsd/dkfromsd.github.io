@@ -8,8 +8,8 @@ const phrase1 = `Graphic Design Solutions`;
 // const phrase2 = `Secure Your SmallBiz`;
 const phrase3 = `Show your Business`;
 const phrase4 = `Show your Portfolio`;
-const phrase5 = `Refine your Portfolio`;
-const phrase6 = `Design Illustration`;
+const phrase5 = `Illustrate Portfolio`;
+const phrase6 = `Design Solutions`;
 
 const email = `mickeyfromsd@gmail.com`;
 const phone = `(123) 456-7890`;

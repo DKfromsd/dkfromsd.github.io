@@ -26,7 +26,7 @@ const fillStaticText = () => {
   const phrase1Arr = phrase1.split(' ');
   getEl('js-title').innerHTML = phrase1;
   getEl('js-main-title').innerHTML = `${phrase1Arr[0]}<br/>${phrase1Arr[1]} ${phrase1Arr[2]}`;
-  getEl('js-main-title').innerHTML = `Nice Graphic Solutions`;
+  getEl('js-main-title').innerHTML = `Graphic Design Solutions`;
   // getEl('js-main-desc').innerHTML = mainDesc;
   getEl('js-feat1-title').innerHTML = `${feat1Title}<br/>`;
   getEl('js-feat2-title').innerHTML = `${feat2Title}<br/>`;
