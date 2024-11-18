@@ -64,7 +64,6 @@ const fillStaticText = () => {
   // <textarea placeholder="Please briefly explain your business and graphic needs." class="form-textbox-input contact-form-textarea" name="message" rows="10" required></textarea>
   // <button type='submit' class='button-blue'>Send your request</button>
   // `;
-
   getEl('js-footer').innerHTML = `© 2024 ${phrase1}`;
 }
 
