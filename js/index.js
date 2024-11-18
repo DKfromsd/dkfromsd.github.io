@@ -2,7 +2,7 @@
 
 const featTitle = `Why Choose Graphic Design Assist?`;
 
-const feat1Title = `Starting from<br/> Graphic Design`;
+const feat1Title = `Professional Visual Branding`;
 const feat1Desc = `
   At Graphic Design Solutions, we understand the unique challenges small businesses face in today's digital landscape. Visibility competitions are constantly evolving, and having a robust framework of user experience is essential to protect your business critical factors and maintain the trust of your customers.<br/> That's why we are committed to helping small businesses like yours.
 `;
@@ -37,31 +37,33 @@ const fillStaticText = () => {
   getEl('js-feat1-desc').innerHTML = feat1Desc;
   getEl('js-feat2-desc').innerHTML = feat2Desc;
   // getEl('js-feat3-desc').innerHTML = feat3Desc;
-  // getEl('js-contact-desc').innerHTML = `If you want to experience our web services, please fill out the form below or contact us directly at <a href='mailto:${email}'>${email}</a> or ${phone}`;
+  
+  getEl('js-contact-desc').innerHTML = `Getting started with decent illustrator design is easy. Simply sign up for our free consultation, and one of our experts will get in touch with you to discuss your specific needs and challenges. Together, we'll develop a comprehensive plan to enhance your graphic portfolio and ensure your portfolio perfection for your business.`;
+   // or ${phone}`;
 
-  getEl('js-contact-desc').innerHTML = `Getting started with decent illustrator design is easy. Simply sign up for our free consultation, and one of our experts will get in touch with you to discuss your specific needs and challenges.<br/> Together, we'll develop a comprehensive plan to enhance your graphic portfolio and ensure your portfolio perfection for your business .`;
+  getEl('js-contact-desc2').innerHTML = `<br/>If you have any questions, please feel free to contact us directly at <a href='mailto:${email}'>${email}</a>`;
 
-  getEl('js-contact-form').innerHTML = `<div class="contact-form-row">
-    <div class="contact-form-text">
-      <input type='off' class='form-textbox-input' id='name' name='name' autocomplete='nope' placeholder='Your name' required aria-label='Enter name'>
-    </div>
-    <div class='contact-form-sp'></div>
-    <div class="contact-form-text">
-      <input type='email' class='form-textbox-input' id='email' name='email' autocomplete='off' placeholder='Email address' required aria-label='Enter email'>
-    </div>
-    <div class='contact-form-sp'></div>
-    <div id='js-contact-select' class="contact-form-text form-dropdown dropdown-fader">
-      <select class="form-textbox-input form-dropdown-select" data-ignore-tracking="true" id="js-form-service" aria-labelledby="services-dropdown_label">
-        <option disabled selected="" value="">Select a service type</option>
-        <option class="services-dropdown-item" value="Starter Kit">Free Consulting</option>
-        <option class="services-dropdown-item" value="Consulting">Tech Supports</option>
-        <option class="services-dropdown-item" value="Others">Others</option>
-      </select>
-    </div>
-  </div>
-  <textarea placeholder="Please briefly explain your business and graphic needs." class="form-textbox-input contact-form-textarea" name="message" rows="10" required></textarea>
-  <button type='submit' class='button-blue'>Send your request</button>
-  `;
+  // getEl('js-contact-form').innerHTML = `<div class="contact-form-row">
+  //   <div class="contact-form-text">
+  //     <input type='off' class='form-textbox-input' id='name' name='name' autocomplete='nope' placeholder='Your name' required aria-label='Enter name'>
+  //   </div>
+  //   <div class='contact-form-sp'></div>
+  //   <div class="contact-form-text">
+  //     <input type='email' class='form-textbox-input' id='email' name='email' autocomplete='off' placeholder='Email address' required aria-label='Enter email'>
+  //   </div>
+  //   <div class='contact-form-sp'></div>
+  //   <div id='js-contact-select' class="contact-form-text form-dropdown dropdown-fader">
+  //     <select class="form-textbox-input form-dropdown-select" data-ignore-tracking="true" id="js-form-service" aria-labelledby="services-dropdown_label">
+  //       <option disabled selected="" value="">Select a service type</option>
+  //       <option class="services-dropdown-item" value="Starter Kit">Free Consulting</option>
+  //       <option class="services-dropdown-item" value="Consulting">Tech Supports</option>
+  //       <option class="services-dropdown-item" value="Others">Others</option>
+  //     </select>
+  //   </div>
+  // </div>
+  // <textarea placeholder="Please briefly explain your business and graphic needs." class="form-textbox-input contact-form-textarea" name="message" rows="10" required></textarea>
+  // <button type='submit' class='button-blue'>Send your request</button>
+  // `;
 
   getEl('js-footer').innerHTML = `© 2024 ${phrase1}`;
 }
