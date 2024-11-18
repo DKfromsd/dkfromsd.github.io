@@ -6,9 +6,9 @@
  */
 const phrase1 = `Graphic Design Solutions`;
 // const phrase2 = `Secure Your SmallBiz`;
-const phrase3 = `Show your Business`;
-const phrase4 = `Dream your Future`;
-const phrase5 = `Illustrate Portfolio`;
+const phrase3 = `Draw your Future`;
+const phrase4 = `Draw your Business`;
+const phrase5 = `Design Portfolio`;
 const phrase6 = `Design Solutions`;
 
 const email = `info@penfromtheisland.com`;
