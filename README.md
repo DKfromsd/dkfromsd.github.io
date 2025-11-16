@@ -1,3 +1,3 @@
-# PenFromtheIsland.com
-This project is the page for penfromtheisland.com
-Page look and feel will be customized upon request.
+# Graphic Design Solution balconymuseum.com
+This project is the page for design and image illustration
+One point lesson and consultation of web and art portfolio 
