@@ -199,6 +199,9 @@ const renderBanner = async () => {
   if (isMobile())getEl('js-next-02').classList.remove('hidden'); 
   await typeText('js-type-03', phrase6Arr[1], 40);
   await elapseTime(1500);
+  getEl('js-main-img-1').style.opacity = 0;  // bw 이미지 완전 숨김
+  getEl('js-main-img-2').style.opacity = 0;  // partial 컬러 완전 숨김
+  getEl('js-main-img-3').style.opacity = 1;  // full은 유지
 
   hideCaret();
   getEl('js-type-02').innerHTML = `<div class='image-wr globe-wr fi-short'><img  id='js-globe' class='globe-size' src='./icon/globe-white-solid.svg'></div>`;
@@ -221,10 +224,19 @@ const main = async () => {
   await loadEnv();
   startEventListener();
 
+  // if (!isMobile()) {
+  //   getEl('js-main-img-1').src = './img/banner-bw.jpg';
+  //   getEl('js-main-img-2').src = './img/banner-col.jpg';
+  //   getEl('js-main-img-3').src = './img/banner-full.jpg';
+  // }
   if (!isMobile()) {
-    getEl('js-main-img-1').src = './img/banner-bw.jpg';
-    getEl('js-main-img-2').src = './img/banner-col.jpg';
-    getEl('js-main-img-3').src = './img/banner-full.jpg';
+    getEl('js-main-img-1').src = './img/rainier-sea.jpg';  //  바다와 산 (bw 효과로 사용, CSS에서 grayscale 적용)
+    getEl('js-main-img-2').src = './img/seattle-rainier-event.jpg';  // 도시와 산, Space Needle 포함
+    getEl('js-main-img-3').src = './img/rainier-sunset-chess.jpg';  //  체스판과 산 sunset
+  } else {
+    getEl('js-main-img-1').src = './img/rainier-sea-m.jpg';  // 모바일 버전 (원본처럼 -m 접미사 가정, 필요 시 리사이즈)
+    getEl('js-main-img-2').src = './img/seattle-rainier-event-m.jpg';
+    getEl('js-main-img-3').src = './img/rainier-sunset-chess-m.jpg';
   }
   await loadFont();
 
